@@ -1,3 +1,3 @@
 # Sissejuhatus infosüsteemidesse
 
-Aine i253 materjalid, ülesanded, lahendused, stuff.
+Aine i253 (sissejuhatus infosüsteemidesse) materjalid, ülesanded, lahendused, stuff.
