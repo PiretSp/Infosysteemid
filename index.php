@@ -3,9 +3,11 @@
 	<head>
 	<meta charset="UTF-8">
 		<title>Pireti kodukas</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	
 	<body>
+	<?php echo phpversion()?>
 		<h1>Tere, maailm ning muud karvased ja sulelised!</h1>
 		
 		<!--See jätab tühja rea-->
