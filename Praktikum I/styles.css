@@ -1,0 +1,15 @@
+body {
+    background-color: oldlace;
+}
+h1 {
+    color: black;
+}
+p {
+    color: red;
+	font-size: 20px;
+}
+
+div {
+	color: orange;
+	size: 20px;
+}

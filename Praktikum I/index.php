@@ -37,7 +37,7 @@
 		<!--See jätab tühja rea-->
 		<p>&nbsp;</p>	
 		
-		<p><font size=6>Pireti kodulehekülg aines võrgurakendused I.</font></p>
+		<p>Pireti kodulehekülg aines võrgurakendused I.</p>
 		<p></p>
 		<p></p>
 		
