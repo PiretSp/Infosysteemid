@@ -4,24 +4,7 @@
 	<meta charset="UTF-8">
 		<title>Pireti kodukas</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script>
-		//Võetud http://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_clock
-		function startTime() {
-			var today = new Date();
-			var h = today.getHours();
-			var m = today.getMinutes();
-			var s = today.getSeconds();
-			m = checkTime(m);
-			s = checkTime(s);
-			document.getElementById('txt').innerHTML =
-			h + ":" + m + ":" + s;
-			var t = setTimeout(startTime, 500);
-		}
-		function checkTime(i) {
-			if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-			return i;
-		}
-		</script>
+	<script src="kell.js"></script>
 	</head>
 	
 	<body onload="startTime()">
