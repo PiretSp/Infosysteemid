@@ -1,9 +1,145 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+	<head>
+		<meta charset="UTF-8"/>
+	</head>
+	
+	<body>
+		<!---Tabeli jaotus--->
+		<h2>Raamatute tabel</h2>
+		<table border="1">
+			<caption>Raamatute tabel</caption>
+  		<thead>
+    		<tr>
+      		<th>Autor</th>
+      		<th>Pealkiri</th>
+      		<th>Aasta</th>
+    		</tr>
+  		</thead>
+  		<tbody>
+    		<tr>
+      		<td>Indrek Hargla</td>
+      		<td>Apteeker Melchior ja Oleviste mõistatus</td>
+      		<td>2010</td>
+    		</tr>
+    		<tr>
+      		<td>Indrek Hargla</td>
+      		<td>Apteeker Melchior ja Rataskaevu viirastus</td>
+      		<td>2010</td>
+    		</tr>
+    		<tr>
+      		<td>Indrek Hargla</td>
+      		<td>Süvahavva</td>
+      		<td>2013</td>
+    		</tr>
+  		</tbody>
+		</table>	
 
-</body>
+		<!---Kujund-tabeli jaotus--->
+		<h2>Kujund-tabel</h2>
+		<table border="1">
+    		<tr>
+      		<td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      		<td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		</tr>
+    		<tr>
+      		<td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		</tr>
+    		<tr>
+      		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		</tr>
+    		<tr>
+      		<td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    		</tr>
+		</table>
+		<p>&nbsp;</p>
+
+		<!---Vormi jaotus--->
+		<h2>Vorm</h2>
+		<form name=f1 method="post" action="">
+			<table>
+				<tr>
+					<td class="f1_label">Sisesta autor:
+					</td>
+					<td><input type="text" name="username" value="" placeholder="autor"/>
+					</td>
+				</tr>
+				<tr>
+					<td class="f1_label">Sisesta pealkiri:
+					</td>
+					<td>
+						<input type="text" name="password" value="" placeholder="pealkiri"/>
+					</td>
+				</tr>
+				<tr>
+					<td class="f1_label">Hinda raamatut:
+					</td>
+					<td>
+  					<input type="radio" name="hinnang" value="1"> 1
+  					<input type="radio" name="hinnang" value="2"> 2
+  					<input type="radio" name="hinnang" value="3"> 3
+  					<input type="radio" name="hinnang" value="4"> 4
+  					<input type="radio" name="hinnang" value="5"> 5
+					</td>
+				</tr>
+				<tr>
+					<td class="f1_label">Sisesta kommentaar:
+					</td>
+					<td>
+ 						<textarea rows="4" cols="50" placeholder="Sisesta kommentaar">
+						</textarea> 
+					</td>
+				</tr>
+				<tr>
+					<td class="f1_label">Kas soovitaksid sõbrale?:
+					</td>
+					<td>
+  					 <select>
+  						<option value="ei ole kindel" name="soovitus">ei ole kindel</option>
+  						<option value="ilmselt soovitaksin" name="soovitus">ilmselt soovitaksin</option>
+ 							<option value="kindlasti soovitaksin" name="soovitus">kindlasti soovitaksin</option>
+						</select> 
+					</td>
+				</tr>
+				<tr>
+					<td class="f1_label">Sisesta kuupäev:
+					</td>
+					<td>
+						<input type="date" name="kuupäev" max="2020-12-31" placeholder="kuupäev" value="YYYY-MM-DD"><br>
+					</td>
+				</tr>
+				<tr>
+					<td class="f1_label">Otsi lisainfot:
+					</td>
+					<td>
+						<input type="search" name="otsigooglest" placeholder="sisesta otsingusõna">
+					</td>
+				</tr>
+				<tr>
+					<td class="f1_label">Sisesta parool:
+					</td>
+					<td>
+						<input type="password" name="password" value="" placeholder="parool"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" name="login" value="Sisesta"/>
+					</td>
+				</tr>
+
+
+			</table>
+		</form>
+		<p>&nbsp;</p>
+
+		<a href="http://enos.itcollege.ee/~ttanav/VRI/Kodused/02/ylesanne.html">Ülesande kirjeldus</a>
+
+	
+
+	</body>
 </html>
